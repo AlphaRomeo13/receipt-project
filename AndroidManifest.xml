@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package = "com.dreamteam.receipt"
+    android:versionCode="1"
+    android:versionName="1.0" >
+   <uses-sdk android:minSdkVersion="14"
+       android:targetSdkVersion="21" />
+
+<uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
+
+<uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+
+<uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+
+<uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+
+<uses-permission android:name="android.permission.INTERNET"/>
+
+
+<application android:theme="@style/AppTheme" android:label="@string/app_name" android:icon="@drawable/ic_launcher" android:allowBackup="true">
+
+
+<activity android:name=".MainActivity" android:label="@string/app_name">
+
+
+<intent-filter>
+
+<action android:name="android.intent.action.MAIN"/>
+
+<category android:name="android.intent.category.LAUNCHER"/>
+
+</intent-filter>
+
+</activity>
+
+<activity android:name=".SignUp" android:label="sign up" android:configChanges="orientation"
+    android:screenOrientation="portrait"> </activity>
+<activity android:name=".manualInput" android:label="man Input" android:configChanges="orientation"
+    android:screenOrientation="portrait"> </activity>
+<activity android:name=".SimpleAndroidOCRActivity" android:label="ocr" android:configChanges="orientation"
+    android:screenOrientation="portrait"> </activity>
+<activity android:name=".HomePage" android:label="@string/title_activity_home_page" android:configChanges="orientation"
+    android:screenOrientation="portrait"> </activity>
+ <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+ <activity
+            android:name="com.google.android.gms.ads.AdActivity"
+            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize" />
+</application>
+<uses-permission android:name="android.permission.CAMERA" />
+<uses-permission android:name="android.permission.FLASHLIGHT" />
+<uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-feature
+        android:name="android.hardware.camera"
+        android:required="false"/>
+    <uses-feature
+        android:name="android.hardware.camera.autofocus"
+        android:required="false" />
+   
+</manifest>

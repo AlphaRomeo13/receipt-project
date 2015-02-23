@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Hello World, DatumDroidOCRActivity!</string>
+    <string name="app_name">Receipt</string>
+    <string name="button_text">OCR!</string>
+    <string name="text_hint">Analyzed Text</string>
+	<string name ="title_activity_home_page">">HomePage</string>
+	
+	<string-array name="Spinner1">
+	    <item>General</item>
+	    <item>Food</item>
+	    <item>Gas</item>
+	    <item>Medical</item>
+	    <item>All</item>
+	</string-array>
+	
+	<string-array name="Spinner2">
+	    <item>Today</item>
+	    <item>Week</item>
+	    <item>Month</item>
+	    <item>All Time</item>
+	</string-array>
+	<color name="black">#000000</color>
+</resources>

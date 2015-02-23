@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/cat_select"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <Button
+        android:id="@+id/general_select"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="69dp"
+        android:text="General" />
+
+    <Button
+        android:id="@+id/gas_select"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/food_select"
+        android:layout_below="@+id/food_select"
+        android:layout_marginTop="23dp"
+        android:text="Gas" />
+
+    <Button
+        android:id="@+id/food_select"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/general_select"
+        android:layout_below="@+id/general_select"
+        android:layout_marginTop="20dp"
+        android:text="Food" />
+
+    <Button
+        android:id="@+id/medical_select"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/gas_select"
+        android:layout_below="@+id/gas_select"
+        android:layout_marginTop="18dp"
+        android:text="Medical" />
+
+</RelativeLayout>
